@@ -30,6 +30,7 @@ Ensure the following software is installed on your system:
 
 # Running tests
  put your crdes in .env.dev and .env.stage
+ #process.env.TARGET_ENV
 
 npm run e2e:regression:dev (to run test in dev env)
 
