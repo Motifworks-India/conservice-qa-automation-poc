@@ -61,9 +61,9 @@ jobs:
               Hi, 
               Please find below the link for Test Automation Report
 
-              https://shg182.github.io/githubactionsdemo/
+              https://motifworks-india.github.io/conservice-qa-automation-poc/
 
               Best Regards
                 Shweta
-          to:  shg182@gmail.com
+          to:  Shweta.Ghule@motifworks.com,Koushik.Mandal@accionlabs.com
           from: ${{ secrets.AUTOMATION_EMAIL_USERNAME }}
