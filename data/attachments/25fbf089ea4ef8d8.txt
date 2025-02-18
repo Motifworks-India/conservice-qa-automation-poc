@@ -1,6 +1,0 @@
-New User: {
-  name: 'Manuel Denesik',
-  job: 'Manager',
-  id: '649',
-  createdAt: '2025-02-18T07:55:51.585Z'
-}
