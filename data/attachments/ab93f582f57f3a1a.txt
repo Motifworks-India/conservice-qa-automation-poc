@@ -1,0 +1,5 @@
+Set Page Worker Index: 0
+Environment set as: dev
+###### URL1=[object Object]
+###### URL2=https://www.saucedemo.com
+Sauce lab logged in

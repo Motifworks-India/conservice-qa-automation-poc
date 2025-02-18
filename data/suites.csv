@@ -1,0 +1,7 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","10683","Verify item added to cart successfully","chromium","Tue Feb 18 07:38:29 UTC 2025","passed","Tue Feb 18 07:38:40 UTC 2025","Single Family Activations tests","ui/loginSauceLogin.spec.ts","",""
+"","4","Test case to verify TTM integration with automation framework @SFAT-359","chromium","Tue Feb 18 07:38:28 UTC 2025","failed","Tue Feb 18 07:38:28 UTC 2025","Single Family Activations tests","ui/loginSauceLogin.spec.ts","",""
+"","1274","Test3 login to page @regression","chromium","Tue Feb 18 07:38:16 UTC 2025","passed","Tue Feb 18 07:38:17 UTC 2025","","ui/addToCart.spec.ts","",""
+"","381","Create a new user and verify the response","chromium","Tue Feb 18 07:38:14 UTC 2025","passed","Tue Feb 18 07:38:15 UTC 2025","","api/users.spec.ts","",""
+"","10855","Test4 add to cart","chromium","Tue Feb 18 07:38:17 UTC 2025","passed","Tue Feb 18 07:38:28 UTC 2025","","ui/addToCart.spec.ts","",""
+"","592","Get user details by ID and verify the response","chromium","Tue Feb 18 07:38:15 UTC 2025","failed","Tue Feb 18 07:38:15 UTC 2025","","api/users.spec.ts","",""
