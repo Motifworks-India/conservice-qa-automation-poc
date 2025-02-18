@@ -1,6 +1,0 @@
-New User: {
-  name: 'Gerard Senger-Kling',
-  job: 'Engineer',
-  id: '266',
-  createdAt: '2025-02-18T08:00:41.315Z'
-}
