@@ -1,6 +1,0 @@
-New User: {
-  name: 'Dr. Tiffany Herman',
-  job: 'Designer',
-  id: '887',
-  createdAt: '2025-02-18T07:51:51.950Z'
-}
