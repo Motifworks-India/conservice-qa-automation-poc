@@ -5,6 +5,8 @@ on:
   pull_request:
     branches: [ main, master ]
   workflow_dispatch:
+  schedule:
+  - cron: '30 12 * * *' 
 
 jobs:
   run-tests-and-send-email:
@@ -65,5 +67,5 @@ jobs:
 
               Best Regards
                 Shweta
-          to:  Shweta.Ghule@motifworks.com,Koushik.Mandal@accionlabs.com
+          to:  ${{ secrets.STAKEHOLDER_EMAILS }}
           from: ${{ secrets.AUTOMATION_EMAIL_USERNAME }}
