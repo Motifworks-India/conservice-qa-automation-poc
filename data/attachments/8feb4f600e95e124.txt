@@ -1,6 +1,0 @@
-New User: {
-  name: 'Misty Wuckert',
-  job: 'Developer',
-  id: '345',
-  createdAt: '2025-02-18T08:06:39.462Z'
-}
