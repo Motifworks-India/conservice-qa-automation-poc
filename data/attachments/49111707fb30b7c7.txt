@@ -1,6 +1,0 @@
-New User: {
-  name: 'Vivian Bogisich',
-  job: 'Developer',
-  id: '410',
-  createdAt: '2025-02-18T07:38:15.132Z'
-}
