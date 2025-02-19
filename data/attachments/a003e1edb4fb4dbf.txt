@@ -1,6 +1,0 @@
-New User: {
-  name: 'Donnie Stroman',
-  job: 'Manager',
-  id: '354',
-  createdAt: '2025-02-19T12:21:21.825Z'
-}
