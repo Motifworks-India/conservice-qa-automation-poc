@@ -5,6 +5,8 @@ on:
   pull_request:
     branches: [ main, master ]
   workflow_dispatch:
+  schedule:
+  - cron: '30 12 * * *' 
 
 jobs:
   run-tests-and-send-email:
@@ -61,9 +63,9 @@ jobs:
               Hi, 
               Please find below the link for Test Automation Report
 
-              https://shg182.github.io/githubactionsdemo/
+              https://motifworks-india.github.io/conservice-qa-automation-poc/
 
               Best Regards
-                Shweta
-          to:  shg182@gmail.com
+              ${{ secrets.SENDER_NAME }}
+          to:  ${{ secrets.STAKEHOLDER_EMAILS }}
           from: ${{ secrets.AUTOMATION_EMAIL_USERNAME }}

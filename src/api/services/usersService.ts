@@ -1,5 +1,5 @@
 import { ApiClient } from 'api/apiClient';
-import { endpoints } from '../../../config/endpointConfig';
+import { endpoints } from '../../../config/api/endpointConfig';
 import { User, CreateUserResponse, GetUserResponse, UpdateUserResponse } from '../types/users';
 
 class UserService {
@@ -9,7 +9,7 @@ class UserService {
     this.endpoint = endpoints.api.users;
   }
 
- 
+
   async createUser(userData: User, expectedStatus?: number): Promise<CreateUserResponse> {
     const endpoint = this.endpoint.create;
     const options = {
@@ -24,7 +24,7 @@ class UserService {
     return response;
   }
 
- 
+
   async getUserDetails(userId: string, expectedStatus?: number): Promise<GetUserResponse> {
     const endpoint = this.endpoint.details.replace('{id}', userId);
     const options = {
@@ -35,7 +35,7 @@ class UserService {
     return response;
   }
 
- 
+
   async updateUser(userId: string, userData: User, expectedStatus?: number): Promise<UpdateUserResponse> {
     const endpoint = this.endpoint.update.replace('{id}', userId);
     const options = {

@@ -6,8 +6,8 @@
  */
 
 import { Expect, Locator, TestInfo, expect } from '@playwright/test';
-import { ExpectOptions, ExpectTextOptions, SoftOption } from '../setup/optional-parameter-types';
-import { getLocator } from './locator-utils';
+import { ExpectOptions, ExpectTextOptions, SoftOption } from '../../config/ui/optional-parameter-types';
+import { getLocator } from './elements/locator-utils';
 import { getPage } from './page-utils';
 import { hover } from './action-utils';
 

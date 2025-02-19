@@ -4,7 +4,7 @@
  */
 
 import { ElementHandle, FrameLocator, Locator, selectors } from '@playwright/test';
-import { getPage } from './page-utils';
+import { getPage } from '../page-utils';
 import {
   GetByPlaceholderOptions,
   GetByRoleOptions,
@@ -14,7 +14,7 @@ import {
   WaitForOptions,
   waitForRequest,
   waitForResponse,
-} from '../setup/optional-parameter-types';
+} from '../../../config/ui/optional-parameter-types';
 
 /**
  * 1. Locators: This section contains functions and definitions related to locators.

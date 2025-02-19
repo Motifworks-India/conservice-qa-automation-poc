@@ -5,11 +5,11 @@
  * It also includes functions for switching between pages, closing pages, and reverting to the default page.
  */
 
-import { KeyboardPressOptions } from 'setup/optional-parameter-types';
-import { SMALL_TIMEOUT } from './timeout-constants';
+import { KeyboardPressOptions } from '../../config/ui/optional-parameter-types';
+import { SMALL_TIMEOUT } from '../constants/timeout-constants';
 import { Response, Page } from '@playwright/test';
 import { unlinkSync } from 'fs';
-import { get, set } from '../setup/cache';
+import { get, set } from '../../config/ui/cache';
 
 let page: Page;
 

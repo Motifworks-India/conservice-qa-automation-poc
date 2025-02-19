@@ -6,8 +6,8 @@
  */
 
 import { Browser, test as baseTest, expect } from '@playwright/test';
-import { getPage, setPageWithCache } from '../utils/page-utils';
-import { getEnvironment } from 'utility/environment';
+import { getPage, setPageWithCache } from '../../src/playwright-Utils/page-utils';
+import { getEnvironment } from 'helpers/environment';
 
 /**
  * A hook that runs before each test, setting the page context.

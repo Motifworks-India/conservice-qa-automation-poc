@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 import {
     getLocator,
     getLocatorByText,
-} from '../../src/utils/locator-utils';
+} from '../playwright-Utils/elements/locator-utils';
 
 export const loginSauceDemoPageLocators = {
 
