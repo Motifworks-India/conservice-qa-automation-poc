@@ -66,6 +66,6 @@ jobs:
               https://motifworks-india.github.io/conservice-qa-automation-poc/
 
               Best Regards
-                Shweta
+              ${{ secrets.SENDER_NAME }}
           to:  ${{ secrets.STAKEHOLDER_EMAILS }}
           from: ${{ secrets.AUTOMATION_EMAIL_USERNAME }}
