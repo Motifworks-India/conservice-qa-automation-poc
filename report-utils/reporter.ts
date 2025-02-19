@@ -9,16 +9,16 @@ import type {
 import { TestRun, TricentisReport } from "./tricentisReport";
 import path from 'path';
 import dotenv from 'dotenv';
-import { envSchema } from "../envSchema";
+//import { envSchema } from "../envSchema";
 import axios from "axios";
 const env_name = process.env.TARGET_ENV ?? 'dev';
-  // Use path.join() for cross-platform compatibility (Windows/Linux/macOS)
-  const envFilePath = path.join('env', `.env.${env_name}`);
-  console.log('Loading environment variables from:', envFilePath);
-  dotenv.config({
-    path: envFilePath, // Cross-platform path to environment file
-    override: true,
-  });
+// Use path.join() for cross-platform compatibility (Windows/Linux/macOS)
+const envFilePath = path.join('env', `.env.${env_name}`);
+console.log('Loading environment variables from:', envFilePath);
+dotenv.config({
+  path: envFilePath, // Cross-platform path to environment file
+  override: true,
+});
 // require("dotenv").config();
 
 //let env = envSchema.parse(process.env);

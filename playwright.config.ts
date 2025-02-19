@@ -4,12 +4,12 @@
  * See https://playwright.dev/docs/test-configuration for more details.
  */
 //A type definition for specifying the page's load state.
-import { WaitForLoadStateOptions } from './src/setup/optional-parameter-types';
+import { WaitForLoadStateOptions } from './config/ui/optional-parameter-types';
 //A utility from Playwright to define the configuration.
 import { defineConfig, devices } from '@playwright/test';
 // These specify various timeout durations for actions, expectations, 
 // navigation, and tests, imported from a utility file.
-import { ACTION_TIMEOUT, EXPECT_TIMEOUT, NAVIGATION_TIMEOUT, TEST_TIMEOUT } from './src/utils/timeout-constants';
+import { ACTION_TIMEOUT, EXPECT_TIMEOUT, NAVIGATION_TIMEOUT, TEST_TIMEOUT } from './src/constants/timeout-constants';
 
 /**
  * Default load state to be used while loading a URL or performing a click and navigate operation.
@@ -21,13 +21,13 @@ export default defineConfig({
   /**
    * The directory where tests are located.
    */
-  testDir: './tests/e2e',
+  testDir: './tests',
   /**
    * Determines whether to run tests within each spec file in parallel, in addition to running the spec files themselves in parallel.
    * See https://playwright.dev/docs/api/class-testconfig#testconfig-fullyparallel
    */
   fullyParallel: false,
-  globalSetup: './globalSetup.ts',
+  globalSetup: './config/ui/globalSetup.ts',
   maxFailures: process.env.CI ? 0 : 0, // Allows all tests to run even if some fail
   globalTimeout: 36000000, // Set to 60 minutes
 
@@ -50,7 +50,7 @@ export default defineConfig({
    * The reporter to use. This can be set to use a different value on CI.
    * See https://playwright.dev/docs/test-reporters
    */
-  reporter: [['list'], ['./utils/reporter.ts'], ['html'], ['allure-playwright']],
+  reporter: [['list'], ['./report-utils/reporter.ts'], ['html'], ['allure-playwright']],
 
   /**
    * Shared settings for all the projects below.

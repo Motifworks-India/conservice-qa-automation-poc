@@ -20,10 +20,10 @@ import {
   UploadOptions,
   UploadValues,
   WaitForLoadStateOptions,
-} from '../setup/optional-parameter-types';
-import { STANDARD_TIMEOUT } from './timeout-constants';
+} from '../../config/ui/optional-parameter-types';
+import { STANDARD_TIMEOUT } from '../constants/timeout-constants';
 import { LOADSTATE } from '../../playwright.config';
-import { getLocator } from './locator-utils';
+import { getLocator } from './elements/locator-utils';
 
 /**
  * 1. Navigations: This section contains functions for navigating within a web page or between web pages.

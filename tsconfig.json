@@ -40,7 +40,7 @@
     "src/**/*.ts",
     "tests/**/*.ts",
     "playwright.config.ts",
-    "globalSetup.ts"
+    "config/ui/globalSetup.ts"
   ],
   "exclude": [
     "node_modules"

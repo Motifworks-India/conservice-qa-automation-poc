@@ -1,9 +1,9 @@
-import { click, fill, gotoURL, wait } from "../../utils/action-utils";
-import { getLocator, waitFor } from "../../utils/locator-utils";
+import { click, fill, gotoURL, wait } from "../../playwright-Utils/action-utils";
+import { getLocator, waitFor } from "../../playwright-Utils/elements/locator-utils";
 import { CONSERVICE_URLS, USER_INFO } from "../../../tests/testdata/test-data";
-import { getEnvironment } from "../../utility/environment";
+import { getEnvironment } from "../../helpers/environment";
 import { test } from "@playwright/test";
-import { BIG_TIMEOUT, STANDARD_TIMEOUT, SMALL_TIMEOUT } from "../../utils/timeout-constants";
+import { BIG_TIMEOUT, STANDARD_TIMEOUT, SMALL_TIMEOUT } from "../../constants/timeout-constants";
 
 //Added ssuce lab creds
 const username = () => getLocator('[data-test="username"]');

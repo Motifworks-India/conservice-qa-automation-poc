@@ -1,6 +1,6 @@
-import { test } from '../../../src/setup/page-setup';
-import * as LoginPage from '../../../src/pages/Login/login-page';
-import * as sauceLoginPage from '../../../src/pages/loginSauceLoginPageModel';
+import { test } from '../../config/ui/page-setup';
+import * as LoginPage from '../../src/pages/Login/login-page';
+import * as sauceLoginPage from '../../src/pages/loginSauceLoginPageModel';
 const pageURL = '/inventory.html';
 
 test('Test3 login to page @regression', async ({ page }) => {
