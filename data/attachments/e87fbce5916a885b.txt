@@ -1,0 +1,6 @@
+New User: {
+  name: 'Ian Franecki II',
+  job: 'Developer',
+  id: '920',
+  createdAt: '2025-02-19T12:12:42.212Z'
+}

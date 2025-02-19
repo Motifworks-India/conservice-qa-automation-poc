@@ -1,6 +1,0 @@
-New User: {
-  name: 'Darnell Waelchi I',
-  job: 'Engineer',
-  id: '955',
-  createdAt: '2025-02-19T07:47:31.505Z'
-}

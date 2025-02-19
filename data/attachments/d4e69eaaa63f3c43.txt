@@ -1,6 +1,0 @@
-New User: {
-  name: 'Kellie Gusikowski V',
-  job: 'Designer',
-  id: '292',
-  createdAt: '2025-02-18T06:50:46.132Z'
-}
