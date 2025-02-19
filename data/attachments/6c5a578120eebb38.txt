@@ -1,6 +1,0 @@
-New User: {
-  name: 'Jonathan Strosin',
-  job: 'Developer',
-  id: '899',
-  createdAt: '2025-02-18T09:19:33.775Z'
-}
