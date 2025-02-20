@@ -1,6 +1,0 @@
-New User: {
-  name: 'Rick Dach',
-  job: 'Developer',
-  id: '57',
-  createdAt: '2025-02-19T12:45:53.171Z'
-}

@@ -1,0 +1,6 @@
+New User: {
+  name: 'Maggie Lynch',
+  job: 'Manager',
+  id: '829',
+  createdAt: '2025-02-20T12:44:27.074Z'
+}
