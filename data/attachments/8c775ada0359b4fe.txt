@@ -1,0 +1,6 @@
+New User: {
+  name: 'Maureen Kiehn',
+  job: 'Designer',
+  id: '343',
+  createdAt: '2025-02-21T12:43:57.251Z'
+}
