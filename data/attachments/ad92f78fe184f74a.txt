@@ -1,6 +1,0 @@
-New User: {
-  name: 'Dr. Kenny Tillman II',
-  job: 'Designer',
-  id: '600',
-  createdAt: '2025-02-23T12:44:21.012Z'
-}

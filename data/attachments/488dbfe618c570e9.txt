@@ -1,0 +1,6 @@
+New User: {
+  name: 'Lorenzo Wisozk DVM',
+  job: 'Designer',
+  id: '336',
+  createdAt: '2025-02-24T12:44:33.334Z'
+}
