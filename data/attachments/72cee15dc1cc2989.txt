@@ -1,0 +1,6 @@
+New User: {
+  name: 'Louise Stokes IV',
+  job: 'Developer',
+  id: '334',
+  createdAt: '2025-02-25T12:44:40.412Z'
+}
