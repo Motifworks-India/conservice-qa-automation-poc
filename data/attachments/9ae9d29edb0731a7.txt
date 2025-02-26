@@ -1,0 +1,6 @@
+New User: {
+  name: 'Marshall King I',
+  job: 'Manager',
+  id: '691',
+  createdAt: '2025-02-26T12:44:11.910Z'
+}
