@@ -1,0 +1,6 @@
+New User: {
+  name: 'Jamie Leuschke',
+  job: 'Designer',
+  id: '861',
+  createdAt: '2025-02-26T11:12:38.696Z'
+}
