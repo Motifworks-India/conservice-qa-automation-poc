@@ -1,0 +1,6 @@
+New User: {
+  name: 'Michael Wolf',
+  job: 'Designer',
+  id: '635',
+  createdAt: '2025-02-27T12:45:00.443Z'
+}
