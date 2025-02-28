@@ -1,0 +1,6 @@
+New User: {
+  name: 'Salvatore Borer',
+  job: 'Developer',
+  id: '459',
+  createdAt: '2025-02-28T12:45:13.486Z'
+}
