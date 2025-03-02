@@ -1,6 +1,0 @@
-New User: {
-  name: 'Ronnie Little',
-  job: 'Designer',
-  id: '334',
-  createdAt: '2025-03-01T12:44:47.923Z'
-}
