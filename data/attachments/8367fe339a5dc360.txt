@@ -1,0 +1,6 @@
+New User: {
+  name: 'Miss Jackie Schaefer',
+  job: 'Manager',
+  id: '625',
+  createdAt: '2025-03-04T06:58:10.596Z'
+}

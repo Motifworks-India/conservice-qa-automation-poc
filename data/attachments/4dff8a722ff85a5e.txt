@@ -1,6 +1,0 @@
-New User: {
-  name: 'Jodi Gibson',
-  job: 'Designer',
-  id: '943',
-  createdAt: '2025-03-03T12:45:06.301Z'
-}
