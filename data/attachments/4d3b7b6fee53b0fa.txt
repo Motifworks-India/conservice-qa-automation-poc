@@ -1,6 +1,0 @@
-New User: {
-  name: 'Teri Towne',
-  job: 'Manager',
-  id: '96',
-  createdAt: '2025-03-04T12:44:09.624Z'
-}
