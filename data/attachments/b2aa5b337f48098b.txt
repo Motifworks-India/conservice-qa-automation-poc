@@ -1,6 +1,0 @@
-New User: {
-  name: 'Harry Windler',
-  job: 'Manager',
-  id: '133',
-  createdAt: '2025-03-05T12:45:14.080Z'
-}
