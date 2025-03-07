@@ -1,6 +1,0 @@
-New User: {
-  name: 'Lorene Maggio',
-  job: 'Engineer',
-  id: '489',
-  createdAt: '2025-03-06T12:44:12.285Z'
-}

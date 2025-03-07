@@ -1,0 +1,6 @@
+New User: {
+  name: 'Bessie Casper',
+  job: 'Manager',
+  id: '171',
+  createdAt: '2025-03-07T12:44:07.190Z'
+}
