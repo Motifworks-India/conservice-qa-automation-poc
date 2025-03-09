@@ -1,0 +1,6 @@
+New User: {
+  name: 'Ruben Renner Sr.',
+  job: 'Manager',
+  id: '569',
+  createdAt: '2025-03-09T12:40:16.227Z'
+}

@@ -1,6 +1,0 @@
-New User: {
-  name: 'Grace Weimann',
-  job: 'Designer',
-  id: '82',
-  createdAt: '2025-03-08T12:40:34.004Z'
-}
