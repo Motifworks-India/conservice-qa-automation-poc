@@ -1,0 +1,6 @@
+New User: {
+  name: 'Mary Erdman Sr.',
+  job: 'Manager',
+  id: '696',
+  createdAt: '2025-03-10T12:48:42.060Z'
+}
