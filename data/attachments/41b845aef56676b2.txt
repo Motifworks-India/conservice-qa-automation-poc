@@ -1,0 +1,6 @@
+New User: {
+  name: 'Lois Langworth',
+  job: 'Engineer',
+  id: '111',
+  createdAt: '2025-03-11T12:44:34.394Z'
+}
