@@ -1,6 +1,0 @@
-New User: {
-  name: 'Luz Kiehn',
-  job: 'Engineer',
-  id: '35',
-  createdAt: '2025-03-13T06:42:53.269Z'
-}
