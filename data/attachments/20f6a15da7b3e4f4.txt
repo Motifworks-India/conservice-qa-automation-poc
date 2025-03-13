@@ -1,6 +1,0 @@
-New User: {
-  name: 'Peter Hilll',
-  job: 'Developer',
-  id: '103',
-  createdAt: '2025-03-13T05:55:46.891Z'
-}
