@@ -1,6 +1,0 @@
-New User: {
-  name: 'Allan Davis',
-  job: 'Manager',
-  id: '210',
-  createdAt: '2025-03-12T12:45:39.488Z'
-}
